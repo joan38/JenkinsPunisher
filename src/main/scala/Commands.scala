@@ -69,8 +69,8 @@ object Mesfin extends Command {
 object James extends Command {
   def apply()(implicit device: Device) = {
     Zero()
-    Down(450)
-    Left(2670)
+    Down(400)
+    Left(3190)
   }
 }
 
@@ -87,6 +87,14 @@ object David extends Command {
     Zero()
     Down(380)
     Left(2100)
+  }
+}
+
+object Romiro extends Command {
+  def apply()(implicit device: Device) = {
+    Zero()
+    Down(315)
+    Left(3620)
   }
 }
 
@@ -109,8 +117,8 @@ object Ian extends Command {
 object Lakshmi extends Command {
   def apply()(implicit device: Device) = {
     Zero()
-    Down(400)
-    Left(3190)
+    Down(450)
+    Left(2670)
   }
 }
 
@@ -119,5 +127,13 @@ object Stamos extends Command {
     Zero()
     Down(200)
     Left(2720)
+  }
+}
+
+object Karen extends Command {
+  def apply()(implicit device: Device) = {
+    Zero()
+    Down(220)
+    Left(5)
   }
 }
